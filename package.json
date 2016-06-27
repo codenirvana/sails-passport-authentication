@@ -1,5 +1,5 @@
 {
-  "name": "sails-mysql-authentication",
+  "name": "sails-authentication",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
@@ -35,7 +35,7 @@
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codenirvana/sails-mysql-authentication.git"
+    "url": "git://github.com/codenirvana/sails-authentication.git"
   },
   "author": "Udit Vasu",
   "license": "",

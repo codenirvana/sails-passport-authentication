@@ -6,10 +6,7 @@
  */
 
 module.exports = {
-	showHomePage: function(res, req) {
-		res.next();
-	},
-	dashboard: function(req, res) {
-		res.redirect('/dashboard');
+	index: function(req, res) {
+		res.view('app');
 	}
 };

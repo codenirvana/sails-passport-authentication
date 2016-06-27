@@ -31,10 +31,10 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
-//   '/': {
-//     view: 'homepage'
-// },
+    //
+    // '/': {
+    //     view: 'homepage'
+    // },
 
   /***************************************************************************
   *                                                                          *
@@ -46,11 +46,16 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': 'HomeController.showHomePage',
-  'GET /signin': {
-      view: 'signin'
-  },
-  'POST /users/signin': 'UsersController.signin',
-  'GET /dashboard': 'HomeController.dashboard'
+  '/': 'UserController.index',
+
+  'GET /login': { view: 'login' },
+  'POST /login': 'UserController.login',
+
+  'GET /register': { view: 'register' },
+  'POST /register': 'UserController.register',
+
+  'GET /logout' : 'UserController.logout',
+
+  'GET /app': 'AppController.index'
 
 };
