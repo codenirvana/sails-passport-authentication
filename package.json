@@ -2,7 +2,7 @@
   "name": "sails-passport-authentication",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "Node Sails authentication using Passport",
   "keywords": [],
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
